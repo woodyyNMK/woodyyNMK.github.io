@@ -10,37 +10,44 @@ export default function Experience() {
     {
       id: 'mandai',
       name: 'Mandai',
-      type: 'Enterprise PAM Deployments',
-      focus: 'Secure Privileged Access & Hardening',
-      description: 'Supported core CyberArk PAM deployments, aligning platform hardening strategies and access controls to secure critical utility and telecom workloads.',
+      type: 'Enterprise On-Prem PAM Deployments',
+      focus: 'Secure Privileged Access & Credential Rotation',
+      description: 'Supported enterprise CyberArk PAM on-premises deployments by implementing secure privileged access and credential management solutions.',
       bullets: [
-        'Hardened target server pathways restricting access strictly via CyberArk credentials.',
-        'Structured automated platform performance reports optimizing server discovery.',
-        'Established rigid RBAC structures for regional administrator roles.'
+        'Designed, developed, tested, and deployed custom CyberArk plugins in production to enable secure connectivity with diverse appliances and automate privileged credential rotation.',
+        'Diagnosed, debugged, and resolved production issues directly within client environments, minimizing downtime while maintaining platform stability and security.',
+        'Collaborated with client IT teams to provide technical guidance, optimize PAM operations, and promote security best practices for privileged access management.',
+        'Ensured compliance with enterprise security policies and privileged access management best practices.'
       ]
     },
     {
       id: 'singtel',
       name: 'Singtel',
-      type: 'Enterprise PAM Deployments',
-      focus: 'Secure Privileged Access & Hardening',
-      description: 'Supported core CyberArk PAM deployments, aligning platform hardening strategies and access controls to secure critical utility and telecom workloads.',
+      type: 'Enterprise Privilege Cloud PAM Deployment',
+      focus: 'CyberArk Privilege Cloud Implementation & Operations',
+      description: 'Contributed to the end-to-end implementation of CyberArk Privilege Cloud, from initial deployment and configuration to system onboarding, validation, and operational support.',
+
       bullets: [
-        'Hardened target server pathways restricting access strictly via CyberArk credentials.',
-        'Structured automated platform performance reports optimizing server discovery.',
-        'Established rigid RBAC structures for regional administrator roles.'
+        'Installed and configured mandatory CyberArk Privilege Cloud components, ensuring a secure and stable PAM environment.',
+        'Onboarded privileged accounts and target systems into CyberArk, configuring platforms, safes, and access policies according to security requirements.',
+        'Conducted end-to-end validation of CPM password management and PSM session management to verify successful onboarding and secure privileged access.',
+        'Provided technical knowledge transfer and guidance to client teams on CyberArk architecture, including Vault, Safes, Platforms, Master Policy, CPM, and PSM.',
+        'Participated in production support and on-call troubleshooting sessions, working with client teams to diagnose and resolve CyberArk-related issues.'
       ]
     },
     {
       id: 'asm-client',
-      name: 'ASM Client',
+      name: 'ASM',
       type: 'Identity Orchestration',
       focus: 'Zero-Trust Geolocation Travel Workflow',
-      description: 'Architected a zero-trust automated travel exception system connecting CyberArk Identity Flows, ManageEngine MDM, and CyberArk EPM policies.',
+      description: 'Architected and deployed a zero-trust identity orchestration solution using CyberArk Identity Flows, integrating ManageEngine MDM, OpenCage Geolocation, and CyberArk EPM to automate secure travel exception workflows.',
+
       bullets: [
-        'Synchronized real-time mobile GPS coordinates with endpoint privilege elevation guidelines.',
-        'Enforced automated Multi-Factor Authentication (MFA) step-up for cross-border transactions.',
-        'Eliminated manual credential approvals for authenticated travelers, reducing delay by 95%.'
+        'Designed and implemented dynamic REST API integrations between ManageEngine MDM, OpenCage Geolocation, and CyberArk EPM to synchronize real-time device location with endpoint security policies.',
+        'Engineered 28 automated workflows across interactive, scheduled, and API-driven processes to orchestrate location-based access control and policy enforcement.',
+        'Built a data correlation engine that mapped managed mobile devices to enterprise endpoints, ensuring MFA and privilege elevation policies were applied to the correct devices in real time.',
+        'Implemented resilient exception handling for offline devices, manual override scenarios, and expired travel exemptions to maintain uninterrupted workflow execution.',
+        'Authored the Functional Design Specification (FDS) and Standard Operating Procedures (SOPs), enabling long-term maintainability and streamlined operational support.'
       ]
     },
     {
@@ -48,11 +55,14 @@ export default function Experience() {
       name: 'Perth Airport',
       type: 'Identity Lifecycle Integration',
       focus: 'Automated Joiner, Mover, Leaver (JML)',
-      description: 'Engineered a highly automated JML lifecycle connector orchestrating AD, Workday, and ServiceNow endpoints to secure identity provisioning at scale.',
+      description: 'Engineered an automated Joiner, Mover, and Leaver (JML) identity lifecycle solution by integrating CyberArk Identity with Active Directory, Workday, and ServiceNow to streamline enterprise identity provisioning.',
+
       bullets: [
-        'Designed birthright role provisioning rules restricting active directories instantly upon job-type updates.',
-        'Implemented dynamic name-collision resolution modules for email generation.',
-        'Structured real-time leaver automation triggering global access revocation under 30 seconds.'
+        'Designed and implemented automated JML workflows for identity provisioning, updates, and deprovisioning across enterprise systems.',
+        'Integrated CyberArk Identity with Active Directory, Workday, and ServiceNow to synchronize identity lifecycle events and automate account management.',
+        'Developed birthright role assignment logic to provision users with appropriate access based on employment attributes and job roles.',
+        'Implemented dynamic username and email generation with intelligent name-collision resolution to ensure unique identities at enterprise scale.',
+        'Validated end-to-end identity lifecycle workflows to ensure accurate provisioning, role assignment, and deprovisioning across integrated platforms.'
       ]
     }
   ];
@@ -66,7 +76,7 @@ export default function Experience() {
         </h2>
         <div className="h-1 w-20 bg-indigo-600 mx-auto rounded mb-4" />
         <p className="text-slate-500 max-w-xl mx-auto text-sm">
-          A narrative of enterprise security projects, architecture deployments, and custom plugin development.
+          Showcasing my professional journey, highlighting my contributions, responsibilities, and the technical expertise.
         </p>
       </div>
 
@@ -123,7 +133,7 @@ export default function Experience() {
                   <div>
                     <h4 className="font-display text-base font-bold text-slate-900">Enterprise Client Projects</h4>
                     <p className="text-xs text-slate-500">
-                      Select an enterprise client to view the custom IAM/PAM workflows and zero-trust orchestration systems built.
+                      Select a project to view my work scope, responsibilities, and technical contributions.
                     </p>
                   </div>
                 </div>

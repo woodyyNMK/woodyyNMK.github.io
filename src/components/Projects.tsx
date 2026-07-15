@@ -32,9 +32,6 @@ export default function Projects() {
           Featured <span className="text-indigo-600">Software Projects</span>
         </h2>
         <div className="h-1 w-20 bg-indigo-600 mx-auto rounded mb-4" />
-        <p className="text-slate-500 max-w-xl mx-auto text-sm">
-          A demonstration of my engineering competency, ranging from deep NLP models to real-time chat transports.
-        </p>
       </div>
 
       {/* Category Filter bar */}
