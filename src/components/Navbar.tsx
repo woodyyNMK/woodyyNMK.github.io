@@ -25,12 +25,9 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo / Brand */}
-          <div className="flex items-center gap-2 cursor-pointer" onClick={() => setActiveTab('home')}>
-            <div className="p-1.5 rounded bg-slate-900 text-white">
-              <Shield className="w-4 h-4" />
-            </div>
-            <span className="font-display font-bold text-lg tracking-wider text-slate-900">
-              NAY.SEC
+          <div className="flex items-center cursor-pointer select-none" onClick={() => setActiveTab('home')}>
+            <span className="font-display font-extrabold text-2xl tracking-tight bg-gradient-to-r from-slate-900 to-indigo-600 bg-clip-text text-transparent hover:opacity-90 transition-opacity">
+              WooDyy
             </span>
           </div>
 
