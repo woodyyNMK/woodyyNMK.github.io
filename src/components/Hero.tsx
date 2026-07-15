@@ -10,7 +10,7 @@ interface HeroProps {
 export default function Hero({ setActiveTab }: HeroProps) {
   // Quick status highlights
   const statusBadges = [
-    { icon: GraduationCap, label: 'B.Sc CS @ KMUTT' },
+    { icon: GraduationCap, label: 'B.Sc Computer Science @ KMUTT' },
     { icon: Shield, label: 'CyberArk Defender' },
     { icon: Bug, label: 'eCPPTv2' },
     { icon: Award, label: 'ISC2 CC' },
