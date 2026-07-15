@@ -47,7 +47,7 @@ export default function About() {
                   <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white shadow-md bg-slate-50 flex items-center justify-center">
                     {!imageError ? (
                       <img
-                        src="../../public/pf.jpg"
+                        src="./pf.jpg"
                         alt="Nay Myo Kyaw Profile"
                         onError={() => setImageError(true)}
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-180"
