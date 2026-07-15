@@ -1,0 +1,6 @@
+{
+  "name": "Nay Myo Kyaw Portfolio",
+  "description": "Sleek, recruiter-friendly personal portfolio website for Cybersecurity Engineer and Computer Science Graduate Nay Myo Kyaw, featuring an interactive AI Resume Assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
