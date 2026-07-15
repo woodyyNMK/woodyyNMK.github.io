@@ -59,7 +59,7 @@ export const PROJECTS: Project[] = [
     id: 'proj-tryon',
     title: 'Virtual Clothing Try-on Platform',
     description: 'AI-powered fashion tech system integrating 3D avatar generation, virtual try-on, wardrobe management, and ML-based recommendations.',
-    longDescription: 'A comprehensive fashion-tech platform combining mobile capabilities with computer vision and machine learning. Features 3D avatar generation, 2D virtual try-ons, and detailed clothing wardrobe organization. Built dual intelligence recommendation engines including image-based similarity search using InceptionV3, and natural language search powered by Sentence Transformers.',
+    longDescription: 'A comprehensive fashion-tech platform combining mobile capabilities with computer vision and machine Familiar. Features 3D avatar generation, 2D virtual try-ons, and detailed clothing wardrobe organization. Built dual intelligence recommendation engines including image-based similarity search using InceptionV3, and natural language search powered by Sentence Transformers.',
     category: 'AI Integrated',
     tags: ['University Project', 'Mobile', 'Full Stack'],
     techStack: ['React.js', 'Flutter', 'Flask', 'Node.js', 'MongoDB', 'Firebase Auth', 'InceptionV3', 'Sentence Transformers', 'Gemini API', 'Power BI'],
@@ -175,51 +175,52 @@ export const CERTIFICATES: Certificate[] = [
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
-    title: 'Programming Languages',
-    category: 'languages',
+    title: 'Development',
+    category: 'Development',
     skills: [
-      { name: 'TypeScript', level: 'Expert' },
-      { name: 'JavaScript', level: 'Expert' },
-      { name: 'Python', level: 'Expert' },
-      { name: 'Java', level: 'Advanced' },
-      { name: 'SQL', level: 'Advanced' },
-      { name: 'Bash', level: 'Advanced' },
-      { name: 'Dart', level: 'Intermediate' },
-      { name: 'PHP', level: 'Intermediate' }
+      { name: 'TypeScript', level: 'Experienced' },
+      { name: 'JavaScript', level: 'Experienced' },
+      { name: 'Node.js', level: 'Experienced' },
+      { name: 'Flutter', level: 'Experienced' },
+      { name: 'Java', level: 'Experienced' },
+      { name: 'Python', level: 'Experienced' },
+      { name: 'SQL', level: 'Experienced' },
+      { name: 'REST APIs', level: 'Experienced' },
     ]
   },
   {
-    title: 'IAM & PAM Systems',
-    category: 'systems',
+    title: 'DevOps & Infrastructure',
+    category: 'DevOps & Infrastructure',
     skills: [
-      { name: 'CyberArk PAM', level: 'Expert' },
-      { name: 'CyberArk EPM', level: 'Expert' },
-      { name: 'CyberArk Identity Flows', level: 'Expert' },
-      { name: 'Active Directory', level: 'Expert' },
-      { name: 'Least-Privilege & RBAC', level: 'Expert' },
-      { name: 'Identity Lifecycle (JML)', level: 'Expert' }
+      { name: 'Windows', level: 'Experienced' },
+      { name: 'Linux', level: 'Experienced' },
+      { name: 'Docker', level: 'Experienced' },
+      { name: 'Git', level: 'Experienced' },
+      { name: 'Jenkins', level: 'Experienced' },
+      { name: 'AWS', level: 'Familiar' },
+      { name: 'Ansible', level: 'Familiar' },
+      { name: 'Kubernetes', level: 'Familiar' },
+      { name: 'Terraform', level: 'Familiar' },
+      { name: 'CircleCI', level: 'Familiar' },
     ]
   },
   {
-    title: 'Tools & Security',
-    category: 'tools',
+    title: 'Security',
+    category: 'Security',
     skills: [
-      { name: 'Burp Suite Enterprise', level: 'Advanced' },
-      { name: 'Nessus Enterprise', level: 'Advanced' },
-      { name: 'Docker', level: 'Advanced' },
-      { name: 'Postman & RestAPI', level: 'Expert' },
-      { name: 'Git', level: 'Expert' },
-      { name: 'Jenkins', level: 'Intermediate' }
+      { name: 'CyberArk PAM & IAM', level: 'Experienced' },
+        { name: 'CyberArk Flows', level: 'Experienced' },
+        { name: 'Identity Lifecycle Management', level: 'Experienced' },
+        { name: 'Burp Suite', level: 'Experienced' },
     ]
   },
   {
-    title: 'Operating Systems & Misc',
-    category: 'systems',
+    title: 'Languages & Communication',
+    category: 'Languages & Communication',
     skills: [
-      { name: 'Linux (Ubuntu/Debian/CentOS)', level: 'Expert' },
-      { name: 'Windows Server', level: 'Expert' },
-      { name: 'English (Fluent)', level: 'Advanced' },
-      { name: 'Burmese (Native)', level: 'Expert' }
+      { name: 'English', level: 'Experienced' },
+        { name: 'Burmese', level: 'Experienced' },
+        { name: 'Thai', level: 'Familiar' },
     ]
   }
 ];

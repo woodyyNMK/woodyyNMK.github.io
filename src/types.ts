@@ -37,6 +37,6 @@ export interface Certificate {
 
 export interface SkillCategory {
   title: string;
-  skills: { name: string; level: 'Expert' | 'Advanced' | 'Intermediate' }[];
-  category: 'languages' | 'systems' | 'tools' | 'frameworks';
+  skills: { name: string; level: 'Experienced' | 'Familiar'}[];
+  category: 'Development' | 'DevOps & Infrastructure' | 'Security' | 'Languages & Communication';
 }

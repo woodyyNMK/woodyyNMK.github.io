@@ -4,7 +4,7 @@ import { User, GraduationCap, ShieldCheck, Heart, Award, Cpu, BookOpen } from 'l
 import { PERSONAL_INFO, SKILL_CATEGORIES } from '../data';
 
 export default function About() {
-  const [activeSkillCategory, setActiveSkillCategory] = useState<'all' | 'languages' | 'systems' | 'tools'>('all');
+  const [activeSkillCategory, setActiveSkillCategory] = useState<'all' | 'Development' | 'DevOps & Infrastructure' | 'Security' | 'Languages & Communication'>('all');
   const [imageError, setImageError] = useState(false);
 
   // Filter skills based on chosen category
@@ -165,7 +165,7 @@ export default function About() {
 
             {/* Filter Buttons */}
             <div className="flex flex-wrap gap-1.5 mb-6 bg-slate-50 p-1 rounded-xl border border-slate-100">
-              {(['all', 'languages', 'systems', 'tools'] as const).map((cat) => (
+              {(['all', ...SKILL_CATEGORIES.map(cat => cat.category)] as const).map((cat) => (
                 <button
                   key={cat}
                   onClick={() => setActiveSkillCategory(cat)}
@@ -198,10 +198,8 @@ export default function About() {
                         </span>
                         <span
                           className={`text-[9px] font-mono uppercase px-1.5 py-0.5 rounded shrink-0 font-bold ${
-                            skill.level === 'Expert'
-                              ? 'bg-indigo-50 text-indigo-600 border border-indigo-100/50'
-                              : skill.level === 'Advanced'
-                              ? 'bg-indigo-50/50 text-indigo-500 border border-indigo-100/30'
+                            skill.level === 'Experienced'
+                              ? 'bg-emerald-50/50 text-emerald-600 border border-emerald-100/30'
                               : 'bg-slate-100 text-slate-500'
                           }`}
                         >
